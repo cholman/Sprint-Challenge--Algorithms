@@ -97,7 +97,14 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        pass
+        # pick up first item, move right
+        # compare against second item.  
+        # if second item is smaller, swap and continue
+        # continue moving right, looking for smallest item
+        # when can_move_right is false, place item to left most position
+        for i in l:
+            while can_move_right is True:
+                
 
 
 if __name__ == "__main__":
